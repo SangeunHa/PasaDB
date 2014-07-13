@@ -17,7 +17,7 @@ static PasaDB* instance = nil;
 
         NSArray* paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
         NSString* cacheDirectory = [paths lastObject];
-        NSString* documentPath = [cacheDirectory stringByAppendingPathComponent:@"simple.db"];
+        NSString* documentPath = [cacheDirectory stringByAppendingPathComponent:@"PasaDB.db"];
         
         bool isFirstAccess = false;
         
